@@ -8,7 +8,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const BOT_TOKEN = '7743973620:AAGYvRTK03mmjefdoTdaV5PimIFL_TWiX4Q';
-const CHANNEL_ID = '@your_channel_username_or_id';
+const CHANNEL_ID = '@webappdk';
 
 app.post('/send', async (req, res) => {
   const { name, surname, phone, workplace } = req.body;
