@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN';
+const BOT_TOKEN = '7743973620:AAGYvRTK03mmjefdoTdaV5PimIFL_TWiX4Q';
 const CHANNEL_ID = '@your_channel_username_or_id';
 
 app.post('/send', async (req, res) => {
